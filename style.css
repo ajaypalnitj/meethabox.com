@@ -1,0 +1,50 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(circle, #e0b45c, #f49414); /* Radial gradient for laddu effect */
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff; /* White container */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #f38404; /* Tangerine border - keeping consistent */
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #fbbc04; /* Selective Yellow */
+    margin-bottom: 15px;
+}
+
+p {
+    color: #7c3404; /* Peru Tan */
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 15px;
+    color: #fbbc04; /* Selective Yellow */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #f38404; /* Tangerine */
+}
